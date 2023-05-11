@@ -1,4 +1,4 @@
-# Rendu - Test Technique - Edreams Facktory
+# Rendu - Test Technique - Edreams Factory
 
 Ce dépôt contient les 3 exercies PHP demandé et un site web créée en HTML/CSS/JS.<br>
 # Exercices PHP<br>
@@ -89,7 +89,7 @@ class Calcul {
 
 # *Site Web<br>*
 
-Pour accéder au site, [SiteTest](https://raanki.github.io/Edreams-Facktory-Test/Site_HTML_CSS_JS/index.html)<br>
+Pour accéder au site, [SiteTest](https://raanki.github.io/Edreams-Factory-Test/Site_HTML_CSS_JS/index.html)<br>
 
 - Présente des fonctionnalités telles qu'un menu hamburger, une fenêtre modale et un contenu principal centré.<br>
 - Une fenêtre modale s'affiche avec un message de remerciement et un bouton de fermeture.<br>
