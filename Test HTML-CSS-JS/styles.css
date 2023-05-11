@@ -1,0 +1,197 @@
+/* Styles généraux */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6098b7;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 10px;
+}
+
+/* Classe pour l'image du header */
+.logo42 {
+  max-width: 100px;
+  height: auto;
+  margin-right: 0px;
+}
+
+.iconButton {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#hamburgerIcon {
+  margin-right: 30px;
+}
+
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+/* Icône du menu et icône de fermeture de la modale */
+#iconMenu {
+  display: none; /* Icône du menu cachée par défaut */
+}
+
+
+/* Styles de navigation */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-weight: 700;
+  gap: 30px;
+}
+
+/* Styles des liens de navigation */
+a {
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Style pour l'élément avec l'ID "points" */
+#points {
+  font-size: 2.5em;
+  font-weight: 800;
+  line-height: 0.5;
+  letter-spacing: -4px;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 60px;
+  padding: 0 10px;
+}
+
+/* Classe pour le titre */
+.title {
+  font-size: 60px;
+  color: #F0F2F1;
+  text-align: center;
+}
+
+/* Classe pour la description */
+.description {
+  text-align: center;
+  font-size: 30px;
+  color: #c7d9e3;
+}
+
+/* Bouton */
+button {
+  background-color: #F0F2F1;
+  color: #6B706E;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 40px;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* Modale */
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Contenu de la modale */
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 50px 70px;
+  border-radius: 10px;
+  max-width: 400px;
+  gap: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  /* Styles pour la navigation en mode responsive */
+  nav ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    text-align: left;
+    text-align: center;
+  }
+
+/* Affiche l'icône du menu en mode responsive */
+  #iconMenu {
+    display: inline;
+  }
+
+  nav {
+    display: column;
+    position: fixed;
+    height: 100vh;
+    top: 0px;
+    text-align: end;
+    width: 350px;
+    max-width: 65%;
+    background-color: #c7d9e3;
+  }
+  
+  /* Couleur des liens en mode responsive */
+  a{
+    color: black;
+  }
+
+  nav.open {
+    right: 0;
+    transform: translateX(0);
+    transition: transform 0.5s;
+  }
+
+  nav.closed, nav.defautMenu{
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out;
+  }
+
+  nav.defautMenu{
+    visibility: hidden;
+  }
+}
