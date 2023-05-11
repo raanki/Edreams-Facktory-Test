@@ -64,6 +64,9 @@ J'ai créé une classe ayant comme méthodes une fonction enlevant les Doublons 
 
 <table>
   <tr>
+    <td>
+      <img src="Images/Exercices/Exercice3.PNG" alt="Exercice 3" style="display: block; width: 100%; height: auto;">
+    </td>
     <td style="vertical-align: top;">
 <pre>
 <code>
