@@ -1,6 +1,6 @@
 # Rendu - Test Technique - Edreams Factory
 
-Ce dépôt contient les 3 exercies PHP demandé et un site web créée en HTML/CSS/JS.<br>
+Ce dépôt contient les 3 exercices PHP demandés et un site web créée en HTML/CSS/JS.<br>
 # Exercices PHP<br>
 
 ## Exercice 1
