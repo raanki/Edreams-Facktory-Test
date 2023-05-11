@@ -3,8 +3,6 @@
 Ce dépôt contient les 3 exercies PHP demandé et un site web créée en HTML/CSS/JS.<br>
 # Exercices PHP<br>
 
-Pour rappel voici le sujet :<br>
-Enoncé
 ## Exercice 1
 
 <table>
@@ -14,10 +12,10 @@ Enoncé
     </td>
     <td style="vertical-align: top;">
       <p>
-        Pour afficher "Kiwi", j'ai fais un <code>echo $messyArray[0]</code>. Kiwi étant le premier du tableau.<br>
-        Pour afficher "Cerise", j'ai refais un <code>echo $messyArray[8]["Cerise"]</code>. "Cerise" se trouve au 8ème indice car la clé de l'indice précédent à été défini à 7.<br>
-        Pour supprimer "Prune", j'ai utilisé <code>unset($messyArray[8][0])</code>. <code>unset()</code> détruit une variable.<br>
-        Pour afficher le tableau, j'ai utilisé un <code>print_r($messyArray)</code>.<br>
+        • Pour afficher "Kiwi", j'ai fais un <code>echo $messyArray[0]</code>. Kiwi étant le premier du tableau.<br>
+        • Pour afficher "Cerise", j'ai refais un <code>echo $messyArray[8]["Cerise"]</code>. "Cerise" se trouve au 8ème indice car la clé de l'indice précédent à été défini à 7.<br>
+        • Pour supprimer "Prune", j'ai utilisé <code>unset($messyArray[8][0])</code>. <code>unset()</code> détruit une variable.<br>
+        • Pour afficher le tableau, j'ai utilisé un <code>print_r($messyArray)</code>.<br>
       </p>
     </td>
   </tr>
@@ -49,9 +47,9 @@ function compare_words($a, $b) {
 </code>
 </pre>
       <p>
-J'ai ensuite utilisé la fonction <code>usort()</code> qui permet de trier un tableau par rapport à une fonction, ici <code>compare_words</code>.<br>
+• J'ai ensuite utilisé la fonction <code>usort()</code> qui permet de trier un tableau par rapport à une fonction, ici <code>compare_words</code>.<br>
 
-Pour afficher le tableau, j'ai utilisé un <code>print_r($random_words)</code>.<br>
+• Pour afficher le tableau, j'ai utilisé un <code>print_r($random_words)</code>.<br>
       </p>
     </td>
   </tr>
@@ -84,13 +82,22 @@ class Calcul {
   </tr>
 </table>
 
-Pour tester, on peut d'abord créer un instance : <code>$calcul = new Calcul();</code>. Puis initialiser le tableau : <code>$prenomArray = ["Alice", "Bob", "Alice", "Charlie", "Charlie", "David"];</code><br>
-Utiliser la méthode que l'on viens de créer pour notre class : <code>$resultArray = $calcul->removeDoublon($prenomArray);</code>. Ensuite on affiche le résultat : <code>print_r($resultArray);</code>.<br>
+• Pour tester, on peut d'abord créer un instance : <code>$calcul = new Calcul();</code>. <br>
+• Puis initialiser le tableau : <code>$prenomArray = ["Alice", "Bob", "Alice", "Charlie", "Charlie", "David"];</code><br>
+• Utiliser la méthode que l'on viens de créer pour notre class : <code>$resultArray = $calcul->removeDoublon($prenomArray);</code>. <br>
+• Ensuite on affiche le résultat : <code>print_r($resultArray);</code>.<br>
 
 # *Site Web<br>*
 
-Pour accéder au site, [SiteTest](URL). Le site devait ressembler à cette image : 
+Pour accéder au site, [SiteTest](URL) <br>
 
-- Présente des fonctionnalités telles qu'un menu hamburger, une fenêtre modale et un contenu principal centré. 
-- Une fenêtre modale s'affiche avec un message de remerciement et un bouton de fermeture.
-- Dans sa version responsive, le site s'adapte aux appareils mobiles en modifiant la disposition des éléments.
+- Présente des fonctionnalités telles qu'un menu hamburger, une fenêtre modale et un contenu principal centré.<br>
+- Une fenêtre modale s'affiche avec un message de remerciement et un bouton de fermeture.<br>
+- Dans sa version responsive, le site s'adapte aux appareils mobiles en modifiant la disposition des éléments.<br>
+
+Le site devait ressembler à cette image :
+
+<p align="center">
+  <img src="Images/Enoncé/inte.png" alt="site à faire">
+</p>
+
